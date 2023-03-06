@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 12px;
+  }
+  .logo img{
+    width: 40%;
+    height: 100%;
+  }
+  .container form{
+    width: 300px;
+    background: #706a9d;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    justify-content: space-between;
+  }
+  .container img{
+    width: 35px;
+  }
+  .container input{
+    background:#706a9d;
+    border: 0;
+  }
+  ::placeholder{
+    color: #fff;
+  }
+  .container button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding:16px;
+  }
+  .Stick{
+    top: 100%;
+    position: sticky;
+  }
+  body{
+    min-height: 100vh;
+  }
+  span{
+    color: aqua;
+  }
+  .home-img{
+    padding-left: 40%;
+  }
+  .home-text{
+    padding-left: 42%;
+  }
+  .about-text{
+    padding-left: 35%;
+    padding-right: 32%;
+  }
+  .about-text h2{
+    color: #fff;
+    background-color: #333;
+  }
+  .foorm{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+  }
+  .field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    gap: 16px;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+  .field:hover{
+    background-color: aliceblue;
+  }
+  .field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+  }
+  .field::placeholder{
+    color: #333;
+  }
+  .service-main{
+    padding-left: 40%;
+  }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:#a7a2a2;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            color: rgb(10, 113, 10);
+        }
+        .Main {
+            background-color: white;
+            color: black;
+            justify-content: space-between;
+            margin-left: 500px;
+            margin-right: 550px;
+        }
+        form{
+            margin-left: 15px;
+            margin-bottom: 18px;
+        }
+        button{
+            width: 90%;
+            padding: 4.8px;
+            background-color: rgb(52, 191, 52);
+            cursor: pointer;
+            outline: none;
+            border: none;
+            color: black;
+            transition: 0.3s;
+        }
+        button:hover{
+        background-color: rgb(71, 114, 71)
+        }
+    </style>
+</head>
+<body>
+    <h1>Herald College Kathmandu Survey Form</h1>
+<div class="Main">
+    <form>
+      Name<br>
+      <input type="text" class="field" name="Name" placeholder="Enter your name" required>
+    </form>
+    <form>
+        Email<br>
+        <input type="email" class="field" name="Email" placeholder="Enter your email" required>
+    </form>
+    <form>
+        Age<br>
+        <input type="age" class="field" name="Age" placeholder="Enter your age" required>
+    </form>
+    <form>
+        Which option best describes you?<br>
+    <select name="" id=""> 
+        <option value="" selected>Student</option>
+        <option value="">Lecturer</option>
+    </select>
+    </form>
+    <form>
+        Would you recommend Herald College Kathmandu to a friend?<br>
+        <input type="radio" name="recommend">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" name="recommend">
+        <label for="No">No</label><br>
+        <input type="radio" name="recommend">
+        <label for="Maybe">Maybe</label>
+    </form>
+    <form>
+        Languages and Frameworks known (Check all that apply)<br>
+        <input type="checkbox">
+        <label for="C">C</label><br>
+        <input type="checkbox">
+        <label for="C++">C++</label><br>
+        <input type="checkbox">
+        <label for="C#">C#</label><br>
+        <input type="checkbox">
+        <label for="Java">Java</label><br>
+        <input type="checkbox">
+        <label for="Python">Python</label><br>
+        <input type="checkbox">
+        <label for="JavaScript">JavaScript</label><br>
+        <input type="checkbox">
+        <label for="React">React</label><br>
+        <input type="checkbox">
+        <label for="Angular">Angular</label><br>
+        <input type="checkbox">
+        <label for="Django">Django</label><br>
+        <input type="checkbox">
+        <label for="Spring">Spring</label>
+    </form>
+    <form>
+        Any comments or suggestions<br>
+        <textarea name="Message" class="field" required></textarea><br>
+    </form>
+    <form>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
